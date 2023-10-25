@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(193, 187, 187);
+    
 }
 
 .bg-white {
@@ -15,12 +16,56 @@ body {
 .bg-blue {
     background-color: blue;
 }
-.p-10 {
-    padding: 10px;
+.padding-main {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.m-10 {
+.margin-main {
     margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
+}
+
+.m-20 {
+    margin-top:20px;
+}
+
+
+#blocco-1 {
+    background-color: blue;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom:5px;
+}
+
+#blocco-2 {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom:5px;
+}
+
+.check {
+    color:rgb(32, 220, 32);
+    padding:4px;
+}
+
+#editorial {
+    background-color: rgb(91, 165, 226);
+    border: 1px solid rgb(91, 165, 226);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    color: white;
+    font-size: 10px;;
 }
