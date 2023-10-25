@@ -59,17 +59,22 @@ p {
 
 .check {
     color:rgb(32, 220, 32);
-    padding:1px;
+    padding:1px 3px 1px 3px;
     border: 1px solid rgb(32, 220, 32);
     border-radius: 50%;
-    
+    display: inline-block;
+    font-size: x-small;
+    margin-right: 5px;
 }
 
 .false {
     color: red;
-    padding: 1px;
+    padding: 1px 3px 1px 3px;
     border: 1px solid red;
     border-radius: 50%;
+    display: inline-block;
+    font-size: x-small;
+    margin-right: 5px;
    
 }
 
