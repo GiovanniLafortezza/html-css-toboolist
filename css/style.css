@@ -13,9 +13,7 @@ body {
     background-color: rgb(252, 252, 252);
 }
 
-.bg-blue {
-    background-color: blue;
-}
+
 .padding-main {
     padding-left: 50px;
     padding-right: 50px;
@@ -33,6 +31,9 @@ body {
     margin-top:20px;
 }
 
+p {
+    margin:10px;
+}
 
 #blocco-1 {
     background-color: blue;
@@ -58,6 +59,11 @@ body {
     padding:4px;
 }
 
+.false {
+    color: red;
+    padding:4px;
+}
+
 #editorial {
     background-color: rgb(91, 165, 226);
     border: 1px solid rgb(91, 165, 226);
@@ -67,5 +73,65 @@ body {
     padding-right: 10px;
     padding-bottom:5px;
     color: white;
-    font-size: 10px;;
+    font-size: 10px;
+}
+
+#q1-goals {
+    background-color: rgb(172, 73, 151);
+    border: 1px solid rgb(173, 64, 149);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    color: white;
+    font-size: 10px;
+}
+
+#recruiting {
+    background-color: rgb(31, 197, 67);
+    border: 1px solid rgb(58, 183, 41);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    color: white;
+    font-size: 10px;
+}
+
+#mobile {
+    background-color: rgb(224, 151, 50);
+    border: 1px solid rgb(238, 137, 74);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    color: white;
+    font-size: 10px;
+}
+
+#website {
+    background-color: rgb(232, 69, 194);
+    border: 1px solid rgb(232, 69, 194);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    color: white;
+    font-size: 10px;
+}
+
+#sales {
+    background-color: rgb(111, 197, 110);
+    border: 1px solid rgb(111, 197, 110);
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left:10px;
+    padding-right: 10px;
+    padding-bottom:5px;
+    color: white;
+    font-size: 10px;
 }
