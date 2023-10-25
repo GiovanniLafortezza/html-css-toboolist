@@ -9,6 +9,10 @@ body {
     
 }
 
+header {
+    box-shadow: 5px 5px 8px 10px gray;
+}
+
 main {
     background-color: rgb(252, 252, 252);
     padding-left: 50px;
@@ -19,6 +23,7 @@ main {
     margin-left: 200px;
     margin-right: 200px;
     border-radius: 10px ;
+    box-shadow: 5px 10px 8px 10px grey;
 }
 
 .bg-white {
@@ -30,7 +35,7 @@ main {
 }
 
 p {
-    margin:10px;
+    margin:20px;
 }
 
 #blocco-1 {
@@ -54,14 +59,15 @@ p {
 
 .check {
     color:rgb(32, 220, 32);
-    padding:4px;
-    border: 1px solid green;
+    padding:1px;
+    border: 1px solid rgb(32, 220, 32);
     border-radius: 50%;
+    
 }
 
 .false {
     color: red;
-    padding: 4px;
+    padding: 1px;
     border: 1px solid red;
     border-radius: 50%;
    
