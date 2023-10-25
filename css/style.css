@@ -9,5 +9,18 @@ body {
 }
 
 .bg-white {
-    background-color: aliceblue;
+    background-color: rgb(252, 252, 252);
+}
+
+.bg-blue {
+    background-color: blue;
+}
+.p-10 {
+    padding: 10px;
+}
+
+.m-10 {
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
