@@ -9,22 +9,20 @@ body {
     
 }
 
-.bg-white {
+main {
     background-color: rgb(252, 252, 252);
-}
-
-
-.padding-main {
     padding-left: 50px;
     padding-right: 50px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-
-.margin-main {
     margin-top: 20px;
     margin-left: 200px;
     margin-right: 200px;
+    border-radius: 10px ;
+}
+
+.bg-white {
+    background-color: white;
 }
 
 .m-20 {
@@ -57,14 +55,19 @@ p {
 .check {
     color:rgb(32, 220, 32);
     padding:4px;
+    border: 1px solid green;
+    border-radius: 50%;
 }
 
 .false {
     color: red;
-    padding:4px;
+    padding: 4px;
+    border: 1px solid red;
+    border-radius: 50%;
+   
 }
 
-#editorial {
+.editorial {
     background-color: rgb(91, 165, 226);
     border: 1px solid rgb(91, 165, 226);
     border-radius: 20px;
